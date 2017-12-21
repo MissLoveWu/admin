@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+        var arr = [1,2,3,45,6,78]
+
+        function ArrMove(arr,item){
+          var $index = arr.indexOf(item)
+            if($index != -1) arr.splice($index,1)
+            return arr 
+        }
+
+        console.log(ArrMove(arr,6))
+    </script>
+  </body>
+</html>
